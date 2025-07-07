@@ -1,0 +1,160 @@
+.my-element {
+    /* These values directly correspond to the image */
+    padding: 10px;
+    border: 1.818px solid black; /* You'll need to choose a border style (e.g., solid, dashed) and color */
+    margin: 10px;
+
+    /* To match the content box size shown in the image, you would add: */
+    width: 958.920px;
+    height: 352.557px;
+
+    /* Optional: For demonstration, you might add a background color to the content */
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Nunito Sans';
+}
+
+
+.container { /*This is each div conatiner for colors,fonts and texts.*/
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 50px;
+}
+
+body {
+    font-family: monospace;
+}
+
+/*This is the colors section.....Start*/
+.color-contanier {
+    border-radius: 50px;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.blue {
+    background-color: #0000ff;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.coral {
+    background-color: #ff7f50;
+    color: #000000;
+    border-radius: 50px;
+}
+
+.cyan {
+    background-color: #00ffff;
+    color: #000000;
+    border-radius: 50px;
+}
+
+.green {
+    background-color: #008000;
+    color: #000000;
+    border-radius: 50px;
+}
+
+.grey {
+    background-color: #808080;
+    color: #e6e6fa;
+    border-radius: 50px;
+}
+
+.lavender {
+    background-color: #e6e6fa;
+    color: #000000;
+    border-radius: 50px;
+}
+/*This is the colors section.....End*/
+
+/*This is the font section Start*/
+
+.font-section {
+    width: 45%;
+    display: inline-block;
+}
+
+.source-code-pro {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.Abril-Fatface {
+    font-family: 'Abril Fatface', monospace;
+    flex: 1;
+}
+
+.Hanalei {
+    font-family: 'Hanalei', monospace;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/*This is the font section....End*/
+
+
+p { /*This targets all paragragh elements in the webpage*/
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.heading { /*This is a heading class in text section, keeping it aligned to the left.*/
+    text-align: left;
+}
+
+.heading ul { /*Each pannel in fonts heading is underline.*/
+    font-weight: bold;
+    font-size: 26px;
+    font-family: monospace;
+}
+
+.sub { /*subhead section in text styles*/
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Source Code Pro';
+    text-align: left; 
+}
+
+.last { /*This is the last section in text styles*/
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Abril Fatface';
+    text-align: left;
+}
+
